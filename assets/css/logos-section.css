@@ -1,0 +1,11 @@
+.logos-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.logos-section img{
+    width: 80%;
+}

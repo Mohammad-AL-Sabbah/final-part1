@@ -1,0 +1,400 @@
+.footer{
+    width: 100%;
+    height: 30rem;
+    background-color: #EEEFFB;
+    display: flex;
+    flex-direction: column;
+}
+.footer-sec1{
+    height: 28rem;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    column-gap: 100px;
+    color: #545dad;
+    flex-wrap: wrap;
+
+
+}
+.footer-sec2{
+    background-color: #E7E4F8;
+    height: 2rem;
+
+}
+.footer-hekto h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 36px;
+
+}
+
+.footer-sec2{
+    height: 2rem;
+}
+.footer-hekto input{
+    all: unset;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 3px;
+}
+.footer-hekto button{
+    all: unset;
+    background-color:#FB2E86 ;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.contact-content p{
+    margin-top: 10px;
+    color: #8A8FB9;
+}
+.Catagories-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #545dad;
+
+}
+.Catagories-links a{
+    color: #8A8FB9;
+
+}
+.Catagories-links a:hover {
+    color: #545dad;
+}
+.Customer-Care-links a:hover {
+    color: #545dad;
+
+}
+.Customer-Care-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #545dad;
+
+}
+.Customer-Care-links a{
+    color: #8A8FB9;
+
+}
+.Pages-links a{
+    color: #8A8FB9;
+
+}
+.Pages-links a:hover{
+    color: #545dad;
+
+}
+.Pages-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #545dad;
+
+}
+.Catagories h2{
+    margin-bottom: 15px;
+
+}
+.Customer-Care h2{
+    margin-bottom: 15px;
+
+}
+.Pages{
+    margin-bottom: 15px;
+}
+.div-fotoer{
+    margin-top: 20px;
+}
+.contact-footer h2{
+    font-size: 15px;
+    color: #8A8FB9;
+    font-family: "Lato", sans-serif;
+    margin-top: 10px;
+
+}
+.sec2-h2 h2 {
+    font-family: "Lato", sans-serif;
+    width: fit-content;
+    font-size: 15px;
+    color: #9DA0AE;
+    font-family: "Lato", sans-serif;
+
+}
+
+.footer-sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #545dad;
+
+}
+.sec2-h2{
+    width: fit-content;
+
+}
+.footer-sec2 {
+    height: 3rem;
+}
+
+.icons-lickss{
+    display: flex;
+    gap: 5px;
+    
+}
+@media screen and (max-width: 1873px) and (min-width: 1173px){
+    .icons-lickss {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1173px) and (min-width: 900px){
+    .footer {
+        width: 100%;
+        height: 32rem;
+        background-color: #EEEFFB;
+        display: flex;
+        flex-direction: column;
+    }
+    .icons-lickss {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 800px){
+    .footer {
+        width: 100%;
+        height: 32rem;
+        background-color: #EEEFFB;
+        display: flex;
+        flex-direction: column;
+    }
+
+.footer-hekto-div {
+    margin-left: 88px;
+}
+
+.Customer-Care-div {
+    margin-left: 88px;
+}
+.icons-lickss {
+    display: flex;
+    gap: 15px;
+}
+}
+
+
+
+@media screen and (max-width: 800px) and (min-width: 700px){
+    .footer {
+        width: 100%;
+        height: 36rem;
+        background-color: #EEEFFB;
+        display: flex;
+        flex-direction: column;
+    }
+
+.footer-hekto-div {
+    margin-left: 88px;
+}
+
+.Customer-Care-div {
+    margin-left: 88px;
+}
+
+
+.footer-sec1 {
+    height: 28rem;
+    display: flex;
+    margin: auto;
+    column-gap: 100px;
+    color: #545dad;
+    flex-wrap: wrap;
+}
+.footer-hekto-div{
+    margin-left: 19px;
+}
+.icons-lickss {
+    display: flex;
+    gap: 9px;
+}
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 600px){
+    .footer {
+        width: 100%;
+        height: 43rem;
+        background-color: #EEEFFB;
+        display: flex;
+        flex-direction: column;
+    }
+
+.footer-hekto-div {
+    margin-left: 88px;
+}
+
+.Customer-Care-div {
+    margin-left: 88px;
+}
+
+
+.footer-sec1 {
+    height: 38rem;
+    display: flex;
+    margin: auto;
+    column-gap: 100px;
+    color: #545dad;
+    flex-wrap: wrap;
+}
+.footer-hekto-div{
+    margin-left: 19px;
+}
+.Catagories-div {
+    margin-left: 21px;
+}
+.Pages-div {
+    margin-left: 22px;
+}
+.icons-lickss {
+    display: flex;
+    gap: 9px;
+}
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 500px){
+    .footer {
+        width: 100%;
+        height: 43rem;
+        background-color: #EEEFFB;
+        display: flex;
+        flex-direction: column;
+    }
+.footer-hekto-div {
+    margin-left: 88px;
+}
+
+.Customer-Care-div {
+    margin-left: 0px;
+}
+.footer-sec1 {
+    height: 38rem;
+    display: flex;
+    margin: auto;
+    column-gap: 100px;
+    color: #545dad;
+    flex-wrap: wrap;
+}
+.Customer-Care-div {
+    margin-left: 0px;
+
+}
+.footer-hekto-div{
+    margin-left: 19px;
+}
+.Catagories-div {
+    margin-left: 21px;
+}
+.Pages-div {
+    margin-left: 22px;
+}
+.icons-lickss {
+    display: flex;
+    gap: 9px;
+}
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 400px){
+    .footer {
+        width: 100%;
+        height: 58rem;
+        background-color: #EEEFFB;
+        display: flex;
+        flex-direction: column;
+    }
+.footer-hekto-div {
+    margin-left: 88px;
+}
+
+
+.footer-sec1 {
+    height: 38rem;
+    display: flex;
+    margin: auto;
+    column-gap: 100px;
+    color: #545dad;
+    flex-wrap: wrap;
+}
+.Customer-Care-div {
+    margin-left: 21px;
+}
+.footer-hekto-div {
+    margin-left: 8px;
+}
+
+.Catagories-div {
+    margin-left: 21px;
+}
+.Pages-div {
+    margin-left: 22px;
+}
+.icons-lickss {
+    display: flex;
+    gap: 9px;
+}
+
+
+
+}
+@media screen and (max-width: 400px) and (min-width: 320px){
+    .footer {
+        width: 100%;
+        height: 58rem;
+        background-color: #EEEFFB;
+        display: flex;
+        flex-direction: column;
+    }
+.footer-hekto-div {
+    margin-left: 88px;
+}
+
+
+.footer-sec1 {
+    height: 38rem;
+    display: flex;
+    margin: auto;
+    column-gap: 100px;
+    color: #545dad;
+    flex-wrap: wrap;
+}
+.Customer-Care-div {
+    margin-left: 21px;
+}
+.footer-hekto-div {
+    margin-left: 8px;
+}
+
+.Catagories-div {
+    margin-left: 21px;
+}
+.Pages-div {
+    margin-left: 22px;
+}
+.icons-lickss {
+    display: flex;
+    gap: 9px;
+}
+
+
+.div-fotoer {
+    margin-top: 20px;
+    margin-left: -19px;
+}
+
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*header start*/
+.header-section {
+    width: 100%;
+}
+header ul li a{
+    color: #0D0E43;
+    font-family: "Lato", sans-serif;
+    transition: 0.2s ease-in-out;
+    font-size: 12px;
+    /* font-weight: bold; */
+}
+ul {
+    margin-right: 150px;
+    list-style: none;
+}
+.container{
+    padding: 20px;
+}
+ul li a:hover{
+    color: #FB2E86;
+}
+.search-field input{
+    padding: 5px;
+    border: 1px solid rgba(209, 208, 207, 0.933);
+    outline: none;
+    border-right: none;
+}
+.search i{
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #FB2E86;
+    border-left: none;
+    background-color: #FB2E86;
+
+}
+
+.home-focus{
+    color: #FB2E86;
+}
+.home-sign{
+    margin-bottom: 2px;
+}
+.bars{
+    display: none;
+}
+@media screen and (max-width: 1360px) and (min-width: 1175px){
+    .search input{
+        display: block;
+    }
+}
+@media screen and (max-width: 1360px) and (min-width: 1110px) {
+
+    .gap{
+        gap: 45px;
+    }
+    .search input{
+        display: none;
+    }
+    ul {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 1110px) and (min-width: 950px) {
+header ul li a{
+        display: none;
+    }
+
+    .search-field input{
+        display: none;
+     }
+     i.fa-solid.fa-magnifying-glass.sas {
+         display: none;
+     }
+     .bars{
+         display: block;
+     }
+}
+
+@media screen and (max-width: 950px) and (min-width: 637px) {
+
+  header ul li a{
+    display: none;
+}
+.search-field input{
+   display: none;
+}
+i.fa-solid.fa-magnifying-glass.sas {
+    display: none;
+}
+.bars{
+    display: block;
+}
+}
+
+@media screen and (max-width: 637px) and (min-width: 580px) {
+    .navbar-list{
+        display: none;
+    }
+
+    header ul li a{
+        display: none;
+    }
+    .search-field input{
+       display: none;
+    }
+    .logo img{
+        width: fit-content;
+    }
+    i.fa-solid.fa-magnifying-glass.sas {
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+@media screen and (max-width: 652px) and (min-width: 636px){
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+    
+}
+
+@media screen and (max-width: 580px) and (min-width: 320px){
+    header ul li a{
+        display: none;
+    }
+    .search-field input{
+       display: none;
+    }
+    .logo img{
+        width: fit-content;
+    }
+    .navbar-list{
+        display: none;
+    }
+    i.fa-solid.fa-magnifying-glass.sas {
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+
+
+
+/*header end*/

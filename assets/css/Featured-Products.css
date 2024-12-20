@@ -1,0 +1,322 @@
+.Featured-Products{
+    height: 620px;
+}
+main.main-Featured-Products {
+    position: relative;
+    top: 70px;
+}
+img.product2-img {
+    width: 51%;
+}
+.center-featured-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 92%;
+    flex-direction: column;
+
+}
+.center-featured-product img {
+    width: 60%;
+}
+
+@keyframes icons-hero1{
+    from{
+        left: 0px;
+
+    }
+    to{
+        left: 17px;
+    }
+}
+.img-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 67%;
+    width: 100%;
+
+}
+img.product4-img {
+    width: 80%;
+}
+a.product-details {
+    display: none;
+    margin-top: 23px;
+    border: 1px solid black;
+    padding: 8px 15px 8px 13px;
+    color: #FFFFFF;
+    background-color: #08D15F;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: 0.3s ease-in-out;
+    animation-name:product-details;
+    animation-duration: 0.5s;   
+}
+@keyframes product-details{
+    from{
+        margin-top: 39px;
+    }
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    flex-wrap: wrap;
+    gap: 32px;
+    
+}
+.devider-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    gap: 7px ;
+}
+.D1{
+    height: 5px;
+    width: 27px;
+    border-radius: 5px;
+    background-color: #FB2E86;
+    border: none;
+    cursor: pointer;
+}
+/*D-G (global)*/
+.D-G{
+    height: 5px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: #FEBAD7; 
+    border: none;
+    cursor: pointer;
+}
+.product {
+    height: 360px;
+    width: 191px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 11px -8px #000000;
+    transition: 0.2s ease-in-out;
+}
+.product2{
+    height: 354px;
+    width: 244px;
+    background-color: #2F1AC4;
+    box-shadow: 1px 4px 11px -8px #000000 ;
+}
+.product-div{ 
+    height: 67%;
+    width: 100%;
+    background-color: #F6F7FB;
+}
+.product-name h3{
+    text-align: center;
+    margin-top: 27px;
+    color: #FB2E86;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+}
+.btn1{
+    width: 17px;
+    height: 5px;
+    background-color: #05E6B7;
+    margin-top: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.btn2{
+    width: 17px;
+    height: 5px;
+    background-color: #F701A8;
+    margin-top: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+
+}
+.btn3{
+    width: 17px;
+    height: 5px;
+    background-color: #00009D;
+    margin-top: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.product-description p{
+    line-height: 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.product-description{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px;
+    color: #151875;
+}
+.product-span{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: "Lato", sans-serif;
+}
+img.product2-img {
+    width: 136px;
+}
+.product:hover .center-featured-product .img-size {
+    transform: scale(1);
+    position: relative;
+    top: 15px;
+}
+a.product-details:hover{
+    background-color: #1ca758;
+
+}
+.product:hover a.product-details{
+    display: block;
+
+}
+.product:hover{
+    height: 360px;
+    width: 191px;
+    background-color: #1A0B5B;
+    box-shadow: 1px 1px 11px -8px #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+.product:hover span {
+    color: #FFFFFF;
+
+}
+.product:hover p {
+    color: #FFFFFF;
+
+}
+.product:hover h3{
+    color: #FFFFFF;
+
+}
+.product:hover .btn3{
+    width: 17px;
+    height: 5px;
+    background-color: #FFEAC1;
+    margin-top: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: "Lato", sans-serif;
+
+}
+.product:hover img.product4-img {
+    width: 80%;
+}
+.product:hover .icons-hero1{
+    display: inline-block;
+    color: #1DB4E7;
+    gap: 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    left: 17px;
+    top: 15px;
+}
+.icons-hero1:hover .d {
+    background-color: #EEEFFB;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 25px;
+    color: #1389FF;
+}
+.product:hover .fa-cart-shopping1{
+    display: inline-block;
+}
+.fa-magnifying-glass-plus1:hover{
+    background-color: #EEEFFB;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 25px;
+    color: #1389FF;
+}
+.fa-cart-shopping1:hover{
+     background-color: #EEEFFB;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 25px;
+    color: #1389FF;
+}
+.fa-heart1:hover{
+    background-color: #EEEFFB;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 25px;
+    color: #1389FF;
+}
+.fa-cart-shopping1:hover{
+    background-color: #EEEFFB;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 25px;
+    color: #1389FF;
+}
+.product:hover .name-container {
+    position: relative;
+    bottom: 26px;
+}
+@media screen and (max-width: 1340px) and (min-width: 1180px)  {
+    .container2{
+        width: 100%;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 1180px) and (min-width: 995px)  {
+    .container2{
+        width: 53%;
+        margin:auto;
+    }
+    .Featured-Products {
+        height: 100%;
+    }
+    main.main-Featured-Products {
+        position: relative;
+        top: 9px;
+    }
+}
+@media screen and (max-width: 995px) and (min-width: 650px){
+    .Featured-Products {
+        height: 100%;
+    }
+    main.main-Featured-Products {
+        position: relative;
+        top: 5px;
+    }
+}
+@media screen and (max-width: 650px) and (min-width: 320px){
+    .Featured-Products {
+        height: 100%;
+    }
+    main.main-Featured-Products {
+        position: relative;
+        top: 6px;
+    }
+}

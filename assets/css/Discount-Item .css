@@ -1,0 +1,676 @@
+.Discount-List ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+.Discount-List ul li a{
+    font-family: "Lato", sans-serif;
+
+}
+.ul-c{
+    color: var(--Mian-color);
+}
+.Discount-List ul li:hover{
+    color: var(--Secoundy-color);
+
+}
+.Wood-Chair {
+    color: var(--Secoundy-color);
+    border-bottom: 1px solid var(--Secoundy-color);
+    padding-bottom: 1px;
+}
+.Wood-Chair2{
+    list-style:disc;
+    direction: rtl;
+}
+.Wood-Chair2::marker{
+    color: var(--Secoundy-color);
+}
+.Discount-Item1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.Discount-Item {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 25px;
+
+}
+.div-imgd {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.d-img {
+    width: 100%;
+   
+}
+.Discount-contant {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.done-marks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.Discount-title h2{
+    color: var(--Mian-color);
+    font-size: 37px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.Discount-title2 p{
+    color: var(--Secoundy-color);
+    font-family: "Josefin Sans", sans-serif;
+
+
+}
+.Discount-lorem p{
+    font-family: "Lato", sans-serif;
+    color: #B7BACB;
+}
+.done-marks p{
+    font-family: "Lato", sans-serif;
+    color: #B8B8DC;
+}
+.done-marks i{
+    color: #7569B2;
+}
+.i-w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i-ww{
+    margin-left: 33px;
+
+}
+
+.i-m{
+    margin-right: 8px;
+}
+.Discount-btn a{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 12px 40px 12px 40px;
+    border-radius: 2px;
+    background-color: #FB2E86;
+    color: #fff;
+    font-size: 12px;
+}
+.Discount-btn {
+    width: fit-content;
+}
+@media screen and (max-width: 1373px) and (min-width: 1286px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 1373px) and (min-width: 1200px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 27px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1071px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 27px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1071px) and (min-width: 986px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 27px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 14px;
+    }
+    .Discount-Item {
+        width: 76%;
+        margin: auto;
+        height: 25rem;
+    }
+}
+@media screen and (max-width: 986px) and (min-width: 850px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 22px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 14px;
+    }
+    .Discount-Item {
+        width: 76%;
+        margin: auto;
+        height: 30rem;
+    }
+    .Discount-Item1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+    }
+    .i-ww {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 850px) and (min-width: 700px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 22px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 14px;
+    }
+    .Discount-Item {
+        width: 80%;
+        margin: auto;
+        height: 30rem;
+    }
+    .Discount-Item1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .i-ww {
+        margin-left: 0px;
+    }
+    .d-img {
+        width: 126%;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 650px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 22px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 14px;
+    }
+    .Discount-Item {
+        width: 90%;
+        margin: auto;
+        height: 30rem;
+    }
+    .Discount-Item1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .i-ww {
+        margin-left: 0px;
+    }
+    .d-img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) and (min-width: 500px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 27px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 14px;
+    }
+    .Discount-Item {
+        width: 90%;
+        margin: auto;
+        height: 30rem;
+    }
+    .Discount-Item1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .i-ww {
+        margin-left: 0px;
+    }
+    .d-img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) and (min-width: 440px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 27px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 14px;
+    }
+    .Discount-Item {
+        width: 90%;
+        margin: auto;
+        height: 30rem;
+    }
+    .Discount-Item1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .i-ww {
+        margin-left: 0px;
+    }
+    .d-img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 440px) and (min-width: 400px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 27px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 12px;
+    }
+    .Discount-Item {
+        width: 90%;
+        margin: auto;
+        height: 30rem;
+    }
+    .Discount-Item1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .i-ww {
+        margin-left: 0px;
+    }
+    .d-img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) and (min-width: 350px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex
+;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 25rem;
+        margin-left: 12px;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 21px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 12px;
+    }
+    .Discount-Item {
+        width: 90%;
+        margin: auto;
+        height: 30rem;
+    }
+    .Discount-Item1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 25rem;
+    }
+    
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .i-ww {
+        margin-left: 0px;
+    }
+    .d-img {
+        width: 100%;
+    }
+    .div-imgd {
+        width: 46%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Discount-Item {
+        width: 90%;
+        margin: auto;
+        height: 34rem;
+    }
+    .Discount-btn {
+        width: fit-content;
+        margin-top: 13px;
+    }
+}
+@media screen and (max-width: 350px) and (min-width: 320px)  {
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .Discount-contant {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 30rem;
+        margin-left: 12px;
+    }
+    .Discount-title h2 {
+        color: var(--Mian-color);
+        font-size: 21px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .done-marks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .done-marks p {
+        font-family: "Lato", sans-serif;
+        color: #B8B8DC;
+        font-size: 12px;
+    }
+    .Discount-Item {
+        width: 90%;
+        margin: auto;
+        height: 37rem;
+    }
+    .Discount-Item1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 30rem;
+    }
+    
+    .i-w {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .i-ww {
+        margin-left: 0px;
+    }
+    .d-img {
+        width: 100%;
+    }
+    .div-imgd {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+
+}

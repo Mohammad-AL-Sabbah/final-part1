@@ -1,0 +1,148 @@
+.Main-leatest-container{
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 52px;
+        row-gap: 92px;
+        margin-top: 14px;
+
+}
+.Leatest-Products{
+    margin-top: 15px;
+}
+.leatest-link{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.leatest-link a{
+    color: #151875;
+    font-family: "Lato", sans-serif;
+    transition: 0.2s ease-in-out;
+}
+.leatest-link a:hover{
+    color: #ee0057;
+}
+a.New-Arrival-active{
+    color: #ee0057;
+    border-bottom: 1px solid #ee0057;
+}
+.leatest-product {
+    margin-top: 20px;
+    background-color:#F7F7F7;
+    height: 209px;
+    width: 288px;
+    display: flex;
+    justify-content: center
+}
+.leatest-img{
+    height: 194px;
+    margin-top: 14px;
+}
+.leatest-img img{
+    width: 187px;
+    height: 194px;
+    transition: 0.3s ;
+
+}
+.leatest-container {
+    width: 288px;
+    cursor: pointer;
+}
+.leatest-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.leatest-description h3{
+    font-size: 15px;
+    color: #151875;
+}
+.leatest-price {
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+}
+.leatest-price h4{
+    color: #151875;
+    font-weight: 500;
+}
+.leatest-price span{
+    color: #FB2448;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.leatest-img-sticker {
+    display: none;
+    width: 70px;
+    height: 58px;
+    position: relative;
+    margin-top: 9px;
+}
+.leatest-container:hover .leatest-img-sticker{
+    display: block;
+    width: 70px;
+    height: 58px;
+    position: relative;
+    margin-top: 9px;   
+}
+.leatest-container:hover .leatest-img img{
+    margin-left: -35px;
+}
+.icons2{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    display: none;
+}
+.leatest-container:hover .icons2{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 5px;
+}
+.leatest-container:hover .icons2 i {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 18px; 
+
+}
+.icons4:hover {
+    background-color: #EEEFFB;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #1389FF;
+}
+.leatest-container:hover .icons2{
+    cursor: pointer;
+    color: #1389FF;
+}
+.icons3:hover {
+    background-color: #EEEFFB;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #1389FF;
+}
+.icons5:hover {
+    background-color: #EEEFFB;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #1389FF;
+}
+@media screen and (max-width: 1181px) and (min-width: 994px) {
+    .Leatest-Products {
+        margin-top: 15px;
+        width: 82%;
+    }
+}

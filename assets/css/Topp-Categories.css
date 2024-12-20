@@ -1,0 +1,118 @@
+.Topp-Categories {
+    width: 80%;
+    margin: auto;
+
+}
+.flex-Top {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-containers{
+    width: 270px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Topp-Categories-card {
+    width: 242px;
+}
+.Top-img {
+    width: 230px;
+    height: 231px;
+    border-radius: 130px;
+    background-color: #f1f1f1d4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Top-img img{
+    transition: 0.3s;
+
+}
+.Top-detais{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18px;
+        color: #151875;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 500;
+}
+.Top-title h3{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 12px;
+
+}
+.img-btn{
+    margin-top: 5px;
+}
+.img-btn a{
+    padding: 8px 18px 8px 18px;
+    background-color: #08D15F;
+    color: #ffffffd4;
+    font-family: "Josefin Sans", sans-serif;
+    transition: 0.2s ease-in-out;
+    display: none;
+    border-radius: 3px;
+}
+.img-btn a:hover{
+    background-color: #0dba58;
+
+}
+.Topp-Categories-card:hover{
+    cursor: pointer;
+}
+.Topp-Categories-card:hover .img-btn a{
+    display: block;
+
+}
+.Topp-Categories-card:hover .Top-img{
+    padding: 30px ;
+    border-radius: 130px;
+    background-color: #f1f1f1d4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: #9877E7 solid;
+    border-bottom: #9877E7 solid;
+}
+
+.Topp-Categories-card:hover .Top-img img{
+    width: 81%;
+    margin-bottom: 6px;
+}
+.dots-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+.dots1{
+    background-color: #FB2E86;
+}
+
+
+
+
+@media screen and (max-width: 1350px) and (min-width: 1013px) {
+    .flex-Top {
+        display: flex;
+        width: 73%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 25px;
+
+  }
+
+  }
+  

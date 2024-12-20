@@ -1,0 +1,72 @@
+.third-hero-section{
+    margin-top: 150px;
+    width: 100%;
+    height: 462px;
+    background-image: url(../imgs/hero-section-3/Rectangle\ 102.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.hero-btn3 a{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 16px 50px 15px 50px;    ;
+    border-radius: 2px;
+    background-color: #FB2E86;
+    color: #fff;
+    font-size: 12px;
+    transition: 0.1s ease-in-out;
+    margin-top: 20px;
+}
+.hero-btn3{
+    margin-top: 22px;
+
+}
+.hero-btn3 a:hover{
+    background-color: #c92e71;
+
+}
+.hero-title3 h3{
+    font-family: "Josefin Sans", sans-serif;
+    color: var(--Mian-color);
+}
+.sub-tit {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hero-title3{
+    line-height: 64px;
+
+}
+.hero-title3 h3{
+    font-size: 38px;
+}
+@media screen and (max-width: 610px) and (min-width: 470px)  {
+    .hero-title3 h3 {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 470px) and (min-width: 370px)  {
+    .hero-title3 h3 {
+        font-size: 23px;
+    }
+    .hero-title3{
+        line-height: 42px;
+
+    }
+}
+
+@media screen and (max-width: 370px) and (min-width: 320px)  {
+    .hero-title3 h3 {
+        font-size: 19px;
+    }
+    .hero-title3{
+        line-height: 42px;
+
+    }
+}
